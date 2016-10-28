@@ -1,3 +1,7 @@
+# App config
+app/config/api.js
+
+
 # OSX
 #
 .DS_Store
