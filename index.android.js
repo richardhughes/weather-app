@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {
     AppRegistry,
 } from 'react-native';
-import WeatherContainer from './app/components/Weather/index';
+import WeatherContainer from './app/components/Weather/container';
 
 export default class WeatherApp extends Component {
     render() {

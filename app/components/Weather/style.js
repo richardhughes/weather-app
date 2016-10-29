@@ -4,31 +4,39 @@ import {
 
 const styles = StyleSheet.create({
     container: {
+        backgroundColor: '#FD6461',
         flex: 1,
-        width: undefined,
-        height: undefined,
-        backgroundColor: 'transparent',
         justifyContent: 'center',
         alignItems: 'center',
     },
     cityName: {
-        fontSize: 50,
-        color: 'white',
-        fontFamily: 'sans-serif-condensed'
+        fontSize: 14,
+        fontWeight: "100",
+        marginBottom: 20
     },
     temperature: {
-        fontSize: 125,
-        color: 'white'
+        fontSize: 62,
+        fontWeight: "100",
+        marginBottom: 20
     },
-    weather: {
-        fontSize: 30,
-        fontFamily: 'sans-serif-condensed',
-        color: 'white'
+    icon: {
+        fontFamily: 'weathericons',
+        fontSize: 130,
     },
-    loading: {
-        fontSize: 25,
-        color: 'white'
+    informationIcon: {
+        fontFamily: 'weathericons',
+        fontSize: 20,
+    },
+    input: {
+        borderWidth: 1,
+        borderColor: "#666",
+        height: 40,
+        marginVertical: 20,
+        marginHorizontal: 20,
+        paddingHorizontal: 10,
+        borderRadius: 5, width: 250
     }
+
 });
 
 export default styles;
